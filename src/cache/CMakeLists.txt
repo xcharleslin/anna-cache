@@ -1,11 +1,11 @@
 #  Copyright 2019 U.C. Berkeley RISE Lab
-# 
+#
 #  Licensed under the Apache License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
 #  You may obtain a copy of the License at
-# 
+#
 #      http://www.apache.org/licenses/LICENSE-2.0
-# 
+#
 #  Unless required by applicable law or agreed to in writing, software
 #  distributed under the License is distributed on an "AS IS" BASIS,
 #  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -14,7 +14,7 @@
 
 CMAKE_MINIMUM_REQUIRED(VERSION 3.6 FATAL_ERROR)
 
-ADD_EXECUTABLE(anna-cache cache.cpp)
-TARGET_LINK_LIBRARIES(anna-cache ${CACHE_DEPENDENCIES})
-ADD_DEPENDENCIES(anna-cache hydro-zmq zeromq zeromqcpp)
+ADD_EXECUTABLE(chenggang-sucks cache.cpp)
+TARGET_LINK_LIBRARIES(chenggang-sucks ${CACHE_DEPENDENCIES})
+ADD_DEPENDENCIES(chenggang-sucks hydro-zmq zeromq zeromqcpp)
 
